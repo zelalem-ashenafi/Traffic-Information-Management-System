@@ -1,0 +1,231 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>DBTIMS - Home</title>
+<link rel="stylesheet" href="assets/css/home_style.css"/>
+<link rel="stylesheet" href="assets/css/style2.css"/>
+<script src="assets/js/anychart-core.min.js"></script>
+<script src="assets/js/anychart-pie.min.js"></script>
+<!--fav-icon-->
+<link rel="shortcut icon" href="assets/img/favicon.png"/>
+<style>
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+.modal-content {
+    width: 400px;
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+#hero{
+ 
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#fixedlogo{
+  position:absolute;
+  top:20%;
+  left:35%;
+  width:30%;
+  height:50%;
+}
+animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+
+}
+</style>
+</head>
+
+<body>
+    <section>
+  <div style="background-color:#181D29" class="header">
+    <div class="wrap">
+    <!--start-logo-->
+    <div class="logo">
+      <a href="index.html" ><img style="height: 60px;" src="assets/img/logo.png"></img></a>
+    </div>
+    <!--end-logo-->
+    <!--start-top-nav-->
+    <div class="top-nav">
+      <ul>
+        <li class="active" ><a href="index.html">Home</a></li>
+        
+        <li><a href="contact.php">contact</a></li>
+        <li><a href="about_us.html">About</a></li>
+        <li ><a href="./dbtims.php?id=homepage">Login</a></li>
+        
+      </ul>					
+    </div>
+    <div class="clear"> </div>
+    <!--end-top-nav-->
+  </div>
+  <!--end-header-->
+</div>
+</section>
+        <!-- login modal start -->
+        <div class="upper" style="display:inline">
+          
+            <div id="hero" style="text-align: center;" ><img style="width:100%;float:center;" src="assets/img/back.jpeg"></img></div>
+          <img id="fixedlogo" src="assets/img/logo.png">  
+         
+          
+        
+        </div>
+        </div>
+        
+    </section>
+    <hr>
+    <!--services----------------------->
+    <section class="services">
+        <!--heading----------->
+        <div class="services-heading">
+            <h2>Debre Berhan Traffic Information Management System</h2>
+            <p>DBTIMS is a web based system which controls the process of the traffic system in Debre berhan</p>
+        </div>
+        <!--box-container----------------->
+        <div class="box-container">
+            <!--box-1-------->
+            <div class="box">
+                <img src="assets/img/logo.png">
+                <font>Contact us</font>
+                <p>please send us your feedback in the contactus page</p>
+                <!--btn--------->
+                <a href="contact.php">Contact us</a>
+            </div>
+            <!--box-2-------->
+            <div class="box">
+                <img src="assets/img/logo.png">
+                <font>Login for Staffs</font>
+                <p>You can login to the system using your authentication email and password.</p>
+                <!--btn--------->
+                <a href="login.php">Log in</a>
+            </div>
+            
+            <!--box-1-------->
+            
+        
+    
+    <!--footer------------->
+    <footer>
+      <div class="footer">
+        <div class="wrap">
+       <div class="footer-left">
+           <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="contact.php">contact</a></li>
+          <li><a href="about_us.html">About</a></li>
+          <li><a href="./dbtims.php?id=homepage">Login</a></li>
+        </ul>
+       </div>
+<br/>
+      <p>2021 | DBTIMS</p>
+    </footer>
+    
+</body>
+
+</html>
